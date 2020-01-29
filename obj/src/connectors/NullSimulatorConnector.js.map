@@ -1,0 +1,1 @@
+{"version":3,"file":"NullSimulatorConnector.js","sourceRoot":"","sources":["../../../src/connectors/NullSimulatorConnector.ts"],"names":[],"mappings":";;AAGA,MAAa,sBAAsB;IAExB,WAAW,CAAC,GAAW,EAAE,OAAgB;QAC5C,aAAa;IACjB,CAAC;IAEM,kBAAkB,CAAC,GAAW,EAAE,QAAoC;QACvE,aAAa;IACjB,CAAC;IAEM,qBAAqB,CAAC,GAAW;QACpC,aAAa;IACjB,CAAC;CACJ;AAbD,wDAaC"}

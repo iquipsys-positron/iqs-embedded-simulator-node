@@ -1,0 +1,1 @@
+export { SimulatorDevice } from './SimulatorDevice';

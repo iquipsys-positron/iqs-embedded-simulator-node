@@ -1,0 +1,8 @@
+/dist
+/node_modules
+/npm-debug.log
+/.idea
+/config/*
+!/config/config.example.yml
+!/config/config.teltonika.yml
+/obj/test

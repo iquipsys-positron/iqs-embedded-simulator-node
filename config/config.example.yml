@@ -1,0 +1,57 @@
+---
+# Console logger
+- descriptor: "pip-services3-commons:logger:console:default:1.0"
+  level: "trace"
+
+# Performance counters that posts values to log
+- descriptor: "pip-services3-commons:counters:log:default:1.0"
+  level: "trace"
+
+# Null connector
+- descriptor: "iqs-embedded-simulator-node:connector:null:default:1.0"
+  
+# Lora connector
+# - descriptor: "iqs-embedded-simulator-node:connector:lora:default:1.0"
+#   up_topic: lora/+/up
+#   down_topic: lora/+/down
+#   connection:
+#     protocol: mqtt
+#     host: localhost
+#     port: 1883
+
+# Phone connector
+# - descriptor: "iqs-embedded-simulator-node:connector:phone:default:1.0"
+#   up_topic: +/up
+#   down_topic: +/down
+#   connection:
+#     protocol: mqtt
+#     host: localhost
+#     port: 1883
+
+# Teltonika connector
+# - descriptor: "iqs-embedded-simulator-node:connector:teltonika:default:1.0"
+#   connection:
+#     protocol: udp
+#     host: localhost
+#     port: 4030
+
+# - descriptor: "iqs-embedded-simulator-node:connector:udp:default:1.0"
+#   connection:
+#     protocol: udp
+#     host: 34.227.29.33
+#     port: 4030
+
+- descriptor: "iqs-embedded-simulator-node:device:default:1:1.0"
+  org_id: "d104dcf496e5431cbd3cfb3dafc9e67e"
+  udi: "008000000000DB41"
+  active_interval: 5
+  latitude: 33.5
+  longitude: -111.9
+  beacons: '77777777777777777777777777777777:1:1,77777777777777777777777777777777:1:2'
+
+- descriptor: "iqs-embedded-simulator-node:device:default:2:1.0"
+  org_id: "d104dcf496e5431cbd3cfb3dafc9e67e"
+  udi: "008000000000DB42"
+  active_interval: 5
+  latitude: 33.5
+  longitude: -111.9

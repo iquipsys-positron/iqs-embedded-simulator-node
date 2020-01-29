@@ -1,0 +1,1 @@
+{"version":3,"file":"DevicePingMessage.js","sourceRoot":"","sources":["../../../src/protocol/DevicePingMessage.ts"],"names":[],"mappings":";;AACA,uCAAoC;AAEpC,MAAa,iBAAkB,SAAQ,iBAAO;IAE1C;QACI,KAAK,CAAC,CAAC,CAAC,CAAC;IACb,CAAC;IAEM,MAAM,CAAC,MAAe;QACzB,KAAK,CAAC,MAAM,CAAC,MAAM,CAAC,CAAC;IACzB,CAAC;CAEJ;AAVD,8CAUC"}

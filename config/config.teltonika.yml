@@ -1,0 +1,50 @@
+---
+# Console logger
+- descriptor: "pip-services3-commons:logger:console:default:1.0"
+  level: "info"
+
+# Performance counters that posts values to log
+- descriptor: "pip-services3-commons:counters:log:default:1.0"
+  level: "info"
+
+# Null connector
+- descriptor: "iqs-embedded-simulator-node:connector:null:default:1.0"
+  
+# Lora connector
+#- descriptor: "iqs-embedded-simulator-node:connector:lora:default:1.0"
+#  up_topic: lora/+/up
+#  down_topic: lora/+/down
+#  connection:
+#    protocol: mqtt
+#    host: localhost
+#    port: 1883
+
+# MQTT connector
+#- descriptor: "iqs-embedded-simulator-node:connector:mqtt:default:1.0"
+#  up_topic: "+/up"
+#  down_topic: "+/down"
+#  connection:
+#    protocol: mqtt
+#    host: "api.positron.stage.iquipsys.net"
+#    port: 31883
+
+# Teltonika connector
+- descriptor: "iqs-embedded-simulator-node:connector:teltonika:default:1.0"
+  connection:
+    protocol: udp
+    host: "api.positron.stage.iquipsys.net"
+    port: 30430
+
+- descriptor: "iqs-embedded-simulator-node:device:teltonika-sim:1:1.0"
+  org_id: "8c46936d6452446782c7bce9b4acdca2"
+  udi: "999"
+  interval: 5 
+  latitude: 65.514916
+  longitude: 41.412023
+
+- descriptor: "iqs-embedded-simulator-node:device:teltonika-sim:2:1.0"
+  org_id: "8c46936d6452446782c7bce9b4acdca2"
+  udi: "9999"
+  interval: 5
+  latitude: 65.512806
+  longitude: 41.458309
